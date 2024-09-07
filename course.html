@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smritidhara-(Hub) - A Online Course Selling Website</title>
+  <link rel="stylesheet" href="stylecourse.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Smritidhara-Hub</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Courses</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#" class="btn btn-primary">Sign In</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Learn From The Best Courses Online</h1>
+      <p>Boost your career with top-rated courses taught by professionals from around the world.</p>
+      <a href="#courses" class="btn btn-secondary">Browse Courses</a>
+    </div>
+  </section>
+
+  <!-- Courses Section -->
+  <section id="courses" class="courses-section">
+    <h2>Our Courses</h2>
+
+    <!-- Search and Filter -->
+    <div class="search-filter">
+      <input type="text" id="course-search" placeholder="Search courses..." />
+      <select id="category-filter">
+        <option value="all">All Categories</option>
+        <option value="web-development">Web Development</option>
+        <option value="data-science">Data Science</option>
+        <option value="design">Design</option>
+        <option value="marketing">Marketing</option>
+      </select>
+    </div>
+
+    <!-- Course Grid -->
+    <div class="course-grid">
+      <div class="course-item" data-category="web-development">
+        <h3>Full-Stack Web Development</h3>
+        <p>Build dynamic websites with HTML, CSS, JavaScript, and back-end technologies.</p>
+        <button class="btn btn-primary">Enroll Now</button>
+      </div>
+      <div class="course-item" data-category="data-science">
+        <h3>Data Science & Machine Learning</h3>
+        <p>Analyze data, create predictive models, and work with large datasets.</p>
+        <button class="btn btn-primary">Enroll Now</button>
+      </div>
+      <div class="course-item" data-category="design">
+        <h3>UI/UX Design Fundamentals</h3>
+        <p>Learn design principles and tools to create visually stunning interfaces.</p>
+        <button class="btn btn-primary">Enroll Now</button>
+      </div>
+      <div class="course-item" data-category="marketing">
+        <h3>Digital Marketing Masterclass</h3>
+        <p>Master SEO, social media marketing, email marketing, and more.</p>
+        <button class="btn btn-primary">Enroll Now</button>
+      </div>
+      <div class="course-item" data-category="web-development">
+        <h3>Advanced JavaScript</h3>
+        <p>Level up your JavaScript skills with in-depth knowledge of ES6+ features.</p>
+        <button class="btn btn-primary">Enroll Now</button>
+      </div>
+      <div class="course-item" data-category="data-science">
+        <h3>Data Visualization with Python</h3>
+        <p>Create beautiful data visualizations with libraries like Matplotlib and Seaborn.</p>
+        <button class="btn btn-primary">Enroll Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <h2>What Our Students Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-item">
+        <p>"This platform has changed my career! The courses are easy to follow and very informative."</p>
+        <h4>- Rohit Setti</h4>
+      </div>
+      <div class="testimonial-item">
+        <p>"Thanks to Smritidhara-Hub, I got a promotion at work after completing the Data Science course!"</p>
+        <h4>- Raziya Shaik</h4>
+      </div>
+      <div class="testimonial-item">
+        <p>"The UI/UX Design course was amazing! The instructors are really professionals."</p>
+        <h4>- Charmi Raut</h4>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2024 Smritidhara-Hub All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scriptcourse.js"></script>
+</body>
+</html>
